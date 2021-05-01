@@ -8,7 +8,7 @@ $.currentCookie = '';
 
 function startTask(num) {
     return new Promise(resolve => {
-        const url = "https://ms.jr.jd.com/gw/generic/hy/h5/m/gateMallExchange?reqData=%7B%22productId%22:53,%22appType%22:%22JD_APP%22%7D";
+        const url = "https://ms.jr.jd.com/gw/generic/hy/h5/m/gateMallExchange?reqData=%7B%22productId%22:80,%22appType%22:%22JD_APP%22%7D";
         const method = "GET";
         const headers = {
             Host: 'ms.jr.jd.com',
